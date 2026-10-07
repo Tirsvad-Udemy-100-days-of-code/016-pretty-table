@@ -9,7 +9,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-07 | Proposed | Jens Tirsvad Nielsen | S01 | Initial version | pending |
+| 2026-10-07 | Proposed | Jens Tirsvad Nielsen | S01 | Initial version | [cd85bb4] |
 
 ---
 
@@ -62,3 +62,4 @@ Go — every mandatory criterion of the type checklist and of QC-LANG-001 passes
 [MIL-001]: ../../milestones/mil-001-pretty-table-project.md
 [QC-MIL-001]: ../../../framework/qc/qc-milestones-gateways.md
 [QC-LANG-001]: ../../../framework/qc/qc-language-domain.md
+[cd85bb4]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/016-pretty_table/commit/cd85bb42593077fc462fae258e9336f4ddd34985

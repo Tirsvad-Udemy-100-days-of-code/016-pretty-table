@@ -12,7 +12,7 @@
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
 | 2026-10-07 | Deprecated | Jens Tirsvad Nielsen | S01 | Initial version | [c55db0e] |
-| 2026-10-07 | Accepted | Jens Tirsvad Nielsen | S01 | Re-review fixes: cite the Business Case delivery-time constraint, spell out RC | pending |
+| 2026-10-07 | Accepted | Jens Tirsvad Nielsen | S01 | Re-review fixes: cite the Business Case delivery-time constraint, spell out RC | [cd85bb4] |
 
 ---
 
@@ -81,3 +81,4 @@ A Python 3.13+ project with `src/`, `tests/`, `docs/`, `pyproject.toml`, `consta
 [BC-001]: ../business-case.md
 [SA-001]: ../stakeholder-analysis.md
 [c55db0e]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/016-pretty_table/commit/c55db0e0f2f7c259018b85a90824b124cc0b780d
+[cd85bb4]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/016-pretty_table/commit/cd85bb42593077fc462fae258e9336f4ddd34985
