@@ -11,7 +11,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-07 | Accepted | Jens Tirsvad Nielsen | S01 | Initial version | pending |
+| 2026-10-07 | Accepted | Jens Tirsvad Nielsen | S01 | Initial version | [c55db0e] |
 
 ---
 
@@ -70,3 +70,4 @@ A No-Go on G1 moves the decision date until the failed criteria are fixed.
 [SA-001]: ./stakeholder-analysis.md
 [MIL-001]: ./milestones/mil-001-pretty-table-project.md
 [Milestone 52]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/016-pretty_table/milestone/52
+[c55db0e]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/016-pretty_table/commit/c55db0e0f2f7c259018b85a90824b124cc0b780d
