@@ -28,7 +28,7 @@ Schedules the single delivery phase of the Pretty Table assignment so that the r
 
 | Gateway | Document | Window | Decision date | Owner | Stories | Main deliverable | Milestone |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| G1 Project delivery | [MIL-001] | 2026-10-07 to 2026-10-14 | 2026-10-14 | S01 | none | Tested, documented Python project and published repository metadata | [Milestone 52] |
+| G1 Project delivery | [MIL-001] | 2026-10-07 to 2026-10-14 | 2026-10-14 | S01 | none | Tested, documented Python project and published repository metadata | |
 
 ```plantuml
 @startgantt
@@ -69,5 +69,4 @@ A No-Go on G1 moves the decision date until the failed criteria are fixed.
 [BC-001]: ./business-case.md
 [SA-001]: ./stakeholder-analysis.md
 [MIL-001]: ./milestones/mil-001-pretty-table-project.md
-[Milestone 52]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/016-pretty_table/milestone/52
 [c55db0e]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/016-pretty_table/commit/c55db0e0f2f7c259018b85a90824b124cc0b780d
