@@ -11,7 +11,8 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-07 | Accepted | Jens Tirsvad Nielsen | S01 | Initial version | [c55db0e] |
+| 2026-10-07 | Deprecated | Jens Tirsvad Nielsen | S01 | Initial version | [c55db0e] |
+| 2026-10-07 | Accepted | Jens Tirsvad Nielsen | S01 | Re-review fixes: cite the Business Case delivery-time constraint, spell out RC | [cd85bb4] |
 
 ---
 
@@ -32,7 +33,7 @@ A Python 3.13+ project with `src/`, `tests/`, `docs/`, `pyproject.toml`, `consta
 | 3 | The README follows the template and its steps work | Each section is filled and the steps run | A section is missing or a step fails |
 | 4 | Runtime dependencies | Only PrettyTable | Any other runtime dependency |
 | 5 | Repository description and at least 3 topics are set | Visible on the repository page | Missing |
-| 6 | Code review record against `qc-programming-python` | `RC-*` says Go | No review or No-Go |
+| 6 | Code review record against `qc-programming-python` | The review record (`RC-*`) says Go | No review or No-Go |
 
 ## Dependencies
 
@@ -59,7 +60,7 @@ A Python 3.13+ project with `src/`, `tests/`, `docs/`, `pyproject.toml`, `consta
 
 ## Target Date
 
-2026-10-14 — one week from the start, consistent with the Business Case's small scope.
+2026-10-14 — one week from the start, as the Business Case constraint on delivery time requires.
 
 ## Tasks
 
@@ -80,3 +81,4 @@ A Python 3.13+ project with `src/`, `tests/`, `docs/`, `pyproject.toml`, `consta
 [BC-001]: ../business-case.md
 [SA-001]: ../stakeholder-analysis.md
 [c55db0e]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/016-pretty_table/commit/c55db0e0f2f7c259018b85a90824b124cc0b780d
+[cd85bb4]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/016-pretty_table/commit/cd85bb42593077fc462fae258e9336f4ddd34985

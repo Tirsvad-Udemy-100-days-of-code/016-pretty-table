@@ -11,17 +11,18 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-07 | Accepted | Jens Tirsvad Nielsen | S01 | Initial version | [c55db0e] |
+| 2026-10-07 | Deprecated | Jens Tirsvad Nielsen | S01 | Initial version | [c55db0e] |
+| 2026-10-07 | Accepted | Jens Tirsvad Nielsen | S01 | Re-review fixes: justify the qualitative cost-benefit, add the one-week delivery constraint, spell out PyPI, SQA and QC | [cd85bb4] |
 
 ---
 
 ## Executive Summary
 
-This project delivers the Udemy "100 Days of Code" lesson on adding Python packages from PyPI. It is a small, runnable Python program that builds a table of Pokémon names and types with the PrettyTable package, packaged as a clean, tested and documented repository that other course participants and GitHub visitors can read and run. The effort is deliberately small, and the single runtime dependency is the one the assignment teaches.
+This project delivers the Udemy "100 Days of Code" lesson on adding Python packages from PyPI, the Python Package Index. It is a small, runnable Python program that builds a table of Pokémon names and types with the PrettyTable package, packaged as a clean, tested and documented repository that other course participants and GitHub visitors can read and run. The effort is deliberately small, and the single runtime dependency is the one the assignment teaches.
 
 ## Methodological and Standards Foundation
 
-The work follows the SQA and QC framework mounted at `framework/` (Business Case, Stakeholder Analysis, Project Plan, milestones, tasks as issues, then code). Quality characteristics follow ISO/IEC 25010:2023. Code follows the framework's `coding-conventions` skill for Python and is reviewed against its `qc-programming-*` checklist.
+The work follows the software quality assurance (SQA) and quality control (QC) framework mounted at `framework/` (Business Case, Stakeholder Analysis, Project Plan, milestones, tasks as issues, then code). Quality characteristics follow ISO/IEC 25010:2023. Code follows the framework's `coding-conventions` skill for Python and is reviewed against its `qc-programming-*` checklist.
 
 ## Problem Statement
 
@@ -96,6 +97,7 @@ The project supports the participant's goal of completing the bootcamp with cons
 - Python 3.13 or newer, `venv` for environments, pytest for tests.
 - Constants live in `constants.py`; source uses Doxygen comments.
 - Configuration lives in `pyproject.toml`.
+- Delivery within one week of the start: 2026-10-07 to 2026-10-14.
 - Only the user performs commits, pushes and merges.
 
 ## Cost–Benefit Assessment
@@ -103,6 +105,8 @@ The project supports the participant's goal of completing the bootcamp with cons
 | Costs | Benefits |
 | --- | --- |
 | A few hours of the participant's time; no licence or hosting cost | A shareable, tested reference solution and a reusable project template |
+
+The assessment is qualitative on purpose: the only cost is the participant's own time and the project earns no revenue, so a monetary return on investment would not be meaningful.
 
 ## Stakeholders
 
@@ -120,3 +124,4 @@ Proceed — the scope is small, the cost is minimal and the result is directly r
 
 [SA-001]: ./stakeholder-analysis.md
 [c55db0e]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/016-pretty_table/commit/c55db0e0f2f7c259018b85a90824b124cc0b780d
+[cd85bb4]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/016-pretty_table/commit/cd85bb42593077fc462fae258e9336f4ddd34985
