@@ -11,7 +11,8 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-07 | Accepted | Jens Tirsvad Nielsen | S01 | Initial version | [c55db0e] |
+| 2026-10-07 | Deprecated | Jens Tirsvad Nielsen | S01 | Initial version | [c55db0e] |
+| 2026-10-07 | Accepted | Jens Tirsvad Nielsen | S01 | Re-review fixes: cite the Business Case delivery-time constraint, spell out RC | pending |
 
 ---
 
@@ -32,7 +33,7 @@ A Python 3.13+ project with `src/`, `tests/`, `docs/`, `pyproject.toml`, `consta
 | 3 | The README follows the template and its steps work | Each section is filled and the steps run | A section is missing or a step fails |
 | 4 | Runtime dependencies | Only PrettyTable | Any other runtime dependency |
 | 5 | Repository description and at least 3 topics are set | Visible on the repository page | Missing |
-| 6 | Code review record against `qc-programming-python` | `RC-*` says Go | No review or No-Go |
+| 6 | Code review record against `qc-programming-python` | The review record (`RC-*`) says Go | No review or No-Go |
 
 ## Dependencies
 
@@ -59,7 +60,7 @@ A Python 3.13+ project with `src/`, `tests/`, `docs/`, `pyproject.toml`, `consta
 
 ## Target Date
 
-2026-10-14 — one week from the start, consistent with the Business Case's small scope.
+2026-10-14 — one week from the start, as the Business Case constraint on delivery time requires.
 
 ## Tasks
 

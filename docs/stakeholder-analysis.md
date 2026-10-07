@@ -11,7 +11,8 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-07 | Accepted | Jens Tirsvad Nielsen | S01 | Initial version | [c55db0e] |
+| 2026-10-07 | Deprecated | Jens Tirsvad Nielsen | S01 | Initial version | [c55db0e] |
+| 2026-10-07 | Accepted | Jens Tirsvad Nielsen | S01 | Re-review fix: spell out FURPS+ | pending |
 
 ---
 
@@ -34,6 +35,8 @@ Identify who is affected by the project and what each needs, using a power/inter
 - **Monitor:** S03 browses for ideas and has no say; the description, topics and README are enough.
 
 ## Primary Concerns and FURPS+ Mapping
+
+FURPS+ stands for functionality, usability, reliability, performance and supportability, plus design, implementation, interface and physical constraints.
 
 | ID | Concern | FURPS+ attribute |
 | --- | --- | --- |
