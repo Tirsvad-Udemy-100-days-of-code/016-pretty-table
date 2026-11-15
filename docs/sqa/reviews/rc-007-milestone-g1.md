@@ -60,6 +60,9 @@ Go — every mandatory criterion of the type checklist and of QC-LANG-001 passes
 ---
 
 [MIL-001]: ../../milestones/mil-001-pretty-table-project.md
-[QC-MIL-001]: ../../../framework/qc/qc-milestones-gateways.md
-[QC-LANG-001]: ../../../framework/qc/qc-language-domain.md
+[QC-MIL-001]: ../../../framework/qc/artifacts/qc-milestones-gateways.md
+[QC-LANG-001]: ../../../framework/qc/artifacts/qc-language-domain.md
+[SA-001]: ../../stakeholder-analysis.md
+[BC-001]: ../../business-case.md
+[RC-003]: ./rc-003-milestone-g1.md
 [cd85bb4]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/016-pretty_table/commit/cd85bb42593077fc462fae258e9336f4ddd34985
