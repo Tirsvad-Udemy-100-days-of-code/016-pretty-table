@@ -177,3 +177,5 @@ cython_debug/
 
 # Doxygen output
 docs/doxygen/
+
+/docs/ai-prompts/

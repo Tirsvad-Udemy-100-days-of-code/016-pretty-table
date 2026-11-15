@@ -62,6 +62,8 @@ Go — every mandatory criterion of the type checklist and of QC-LANG-001 passes
 ---
 
 [BC-001]: ../../business-case.md
-[QC-BC-001]: ../../../framework/qc/qc-business-case.md
-[QC-LANG-001]: ../../../framework/qc/qc-language-domain.md
+[QC-BC-001]: ../../../framework/qc/artifacts/qc-business-case.md
+[QC-LANG-001]: ../../../framework/qc/artifacts/qc-language-domain.md
+[SA-001]: ../../stakeholder-analysis.md
+[RC-001]: ./rc-001-business-case.md
 [cd85bb4]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/016-pretty_table/commit/cd85bb42593077fc462fae258e9336f4ddd34985

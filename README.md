@@ -1,11 +1,41 @@
 # Pretty Table
 
 A table of Pokémon and their types, printed with the PrettyTable package from PyPI.
+
+## 📚 Table of Contents
+
+- [Overview](#-overview)
+- [Requirements](#-requirements)
+- [Setup](#-setup)
+- [Run](#-run)
+- [Tests](#-tests)
+- [License](#-license)
+- [Links](#-links)
+- [Appendix: Project documents](#-appendix-project-documents)
+
+## 🧭 Overview
+
+A table of Pokémon and their types, printed with the PrettyTable package from PyPI.
 It is an assignment of Udemy's *100 Days of Code: The Complete Python Pro Bootcamp*
 about adding Python packages. The functions use the assignment's style: `create_table`
 builds the `PrettyTable` and `main` prints it. PrettyTable is the only runtime dependency.
 
-## Requirements
+### Project layout
+
+```text
+.
+├── src/pretty_table/     The program
+│   ├── constants.py      Column titles and the Pokémon rows
+│   ├── main.py           create_table and main
+│   └── __main__.py       Entry point for python -m pretty_table
+├── tests/                pytest tests
+├── docs/                 Project documents (business case, plan, reviews)
+├── .gitea/workflows/     Continuous integration workflow
+├── Doxyfile              Doxygen configuration
+└── pyproject.toml        Project configuration
+```
+
+## 📋 Requirements
 
 - Python 3.13 or newer.
 - `venv` and `pip`, which come with Python (on Debian they are separate packages).
@@ -15,13 +45,13 @@ builds the `PrettyTable` and `main` prints it. PrettyTable is the only runtime d
 `prettytable` is installed from PyPI with the project. `pytest`, `ruff` and `mypy`
 are installed only for development, through the `dev` extra.
 
-## Set up
+## 🛠️ Setup
 
 Clone the repository and change into it:
 
 ```bash
-git clone https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/016-pretty_table.git
-cd 016-pretty_table
+git clone https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/016-pretty-table.git
+cd 016-pretty-table
 ```
 
 Then create a local virtual environment named `.venv`, upgrade `pip` and install
@@ -64,7 +94,7 @@ python -m pip install -e ".[dev]"
 
 To leave the virtual environment, run `deactivate`.
 
-## Run
+## ▶️ Run
 
 With the virtual environment active:
 
@@ -90,7 +120,20 @@ Output:
 +--------------+----------+
 ```
 
-## Run the tests
+### Build the source documentation
+
+The source uses Doxygen comments and the `Doxyfile` in the repository root. Install
+Doxygen (`winget install DimitriVanHeesch.Doxygen` on Windows,
+`sudo apt install doxygen` on Debian, `brew install doxygen` on MacOS), then run:
+
+```bash
+doxygen Doxyfile
+```
+
+The HTML documentation is written to `docs/doxygen/html/`; open `index.html` in a
+browser. The output folder is ignored by git.
+
+## 🧪 Tests
 
 With the virtual environment active:
 
@@ -105,7 +148,7 @@ ruff check .
 mypy
 ```
 
-## Continuous integration
+### Continuous integration
 
 The workflow in `.gitea/workflows/ci.yml` runs on Gitea Actions on every push and
 pull request. It creates a virtual environment on Python 3.13, upgrades `pip`,
@@ -113,34 +156,38 @@ installs the project with the `dev` extra and runs `ruff check .`, `mypy` and
 `python -m pytest`. GitHub does not read the `.gitea` folder, so a GitHub mirror
 does not run it.
 
-## Build the source documentation
+## 📄 License
 
-The source uses Doxygen comments and the `Doxyfile` in the repository root. Install
-Doxygen (`winget install DimitriVanHeesch.Doxygen` on Windows,
-`sudo apt install doxygen` on Debian, `brew install doxygen` on MacOS), then run:
+GNU Affero General Public License v3.0; see [LICENSE][license].
 
-```bash
-doxygen Doxyfile
-```
+## 🔗 Links
 
-The HTML documentation is written to `docs/doxygen/html/`; open `index.html` in a
-browser. The output folder is ignored by git.
+- [Repository][repository]
+- [Documentation][documentation]
+- [Issue tracker][issues]
 
-## Project layout
+## 📎 Appendix: Project documents
 
-```text
-.
-├── src/pretty_table/     The program
-│   ├── constants.py      Column titles and the Pokémon rows
-│   ├── main.py           create_table and main
-│   └── __main__.py       Entry point for python -m pretty_table
-├── tests/                pytest tests
-├── docs/                 Project documents (business case, plan, reviews)
-├── .gitea/workflows/     Continuous integration workflow
-├── Doxyfile              Doxygen configuration
-└── pyproject.toml        Project configuration
-```
+The documents a newcomer needs, in reading order.
 
-## License
+| Document | What it tells you |
+| --- | --- |
+| [Business Case][BC-001] | Why the project exists, its scope and success criteria |
+| [Stakeholder Analysis][SA-001] | Who is involved; the stakeholder IDs used for owners and reviewers |
+| [Project Plan][PP-001] | The gateways and their schedule |
+| [Milestones][milestones] | One document per gateway: Go/No-Go criteria and tasks |
+| [Artifact registry][registry] | Where each artifact type lives, the next version, the PO language and domain |
+| [Traceability matrix][TM-001] | How the artifacts link and when each was last reviewed |
 
-GNU Affero General Public License v3.0; see [LICENSE](LICENSE).
+---
+
+[repository]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/016-pretty-table
+[documentation]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/016-pretty-table/wiki
+[issues]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/016-pretty-table/issues
+[license]: ./LICENSE
+[BC-001]: ./docs/business-case.md
+[SA-001]: ./docs/stakeholder-analysis.md
+[PP-001]: ./docs/project-plan.md
+[milestones]: ./docs/milestones/
+[registry]: ./docs/artifact-registry.md
+[TM-001]: ./docs/sqa/traceability-matrix.md

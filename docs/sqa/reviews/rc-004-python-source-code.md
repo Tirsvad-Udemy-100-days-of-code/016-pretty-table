@@ -53,5 +53,5 @@ Go — every mandatory criterion passes or does not apply, and the optional crit
 ---
 
 [MIL-001]: ../../milestones/mil-001-pretty-table-project.md
-[QC-PY-001]: ../../../framework/qc/qc-programming-python.md
+[QC-PY-001]: ../../../framework/qc/code/qc-programming-python.md
 [10337f4]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/016-pretty_table/commit/10337f404f9bfebaaeabdd7beb1ce4683737f7bc

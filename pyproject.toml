@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=68"]
+requires = ["setuptools>=77"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -8,10 +8,16 @@ version = "0.1.0"
 description = "Pokemon type table with PrettyTable from Udemy's 100 Days of Code: The Complete Python Pro Bootcamp."
 readme = "README.md"
 requires-python = ">=3.13"
-license = { file = "LICENSE" }
+license = "AGPL-3.0-or-later"
+license-files = ["LICENSE"]
 authors = [{ name = "Jens Tirsvad Nielsen" }]
 # PrettyTable is the package the lesson teaches; it is the only runtime dependency.
 dependencies = ["prettytable>=3.10"]
+
+[project.urls]
+Repository = "https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/016-pretty-table"
+Documentation = "https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/016-pretty-table/wiki"
+"Issue tracker" = "https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/016-pretty-table/issues"
 
 [project.optional-dependencies]
 dev = ["pytest>=8", "ruff>=0.6", "mypy>=1.11"]
