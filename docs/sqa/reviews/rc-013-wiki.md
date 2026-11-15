@@ -9,7 +9,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial review record; verdict Go-with-conditions (autonomous, not independent) | pending |
+| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial review record; verdict Go-with-conditions (autonomous, not independent) | [001b7c2] |
 
 ---
 
@@ -57,3 +57,4 @@ Go-with-conditions — every Mandatory criterion passes except criterion 14, whi
 
 [WIKI]: ../../wiki/
 [QC-WIKI-001]: ../../../framework/qc/artifacts/qc-wiki.md
+[001b7c2]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/016-pretty-table/commit/001b7c26fd3c239ee46d82f437dedac1ccf57eff

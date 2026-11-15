@@ -9,7 +9,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial review record; verdict Go (autonomous, not independent) | pending |
+| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial review record; verdict Go (autonomous, not independent) | [001b7c2] |
 
 ---
 
@@ -66,3 +66,4 @@ Go — every Mandatory criterion of QC-SA-001 and QC-LANG-001 passes after the e
 [SA-001]: ../../stakeholder-analysis.md
 [QC-SA-001]: ../../../framework/qc/artifacts/qc-stakeholder-analysis.md
 [QC-LANG-001]: ../../../framework/qc/artifacts/qc-language-domain.md
+[001b7c2]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/016-pretty-table/commit/001b7c26fd3c239ee46d82f437dedac1ccf57eff

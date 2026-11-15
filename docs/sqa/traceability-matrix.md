@@ -9,7 +9,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version; created with the review records of the baseline (autonomous, not independent) | pending |
+| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version; created with the review records of the baseline (autonomous, not independent) | [001b7c2] |
 
 ---
 
@@ -65,3 +65,4 @@ Tracks backward and forward links between the artifact instances of Pretty Table
 [RC-011]: ./reviews/rc-011-milestone-001.md
 [RC-012]: ./reviews/rc-012-milestone-002.md
 [RC-013]: ./reviews/rc-013-wiki.md
+[001b7c2]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/016-pretty-table/commit/001b7c26fd3c239ee46d82f437dedac1ccf57eff

@@ -13,7 +13,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 2026-10-07 | Deprecated | Jens Tirsvad Nielsen | S01 | Initial version | [c55db0e] |
 | 2026-10-07 | Deprecated | Jens Tirsvad Nielsen | S01 | Re-review fixes: cite the Business Case delivery-time constraint, spell out RC | [cd85bb4] |
-| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Set the domain to education (metadata only; content unchanged); reviewed in autonomous mode, not independent | pending |
+| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Set the domain to education (metadata only; content unchanged); reviewed in autonomous mode, not independent | [001b7c2] |
 
 ---
 
@@ -83,3 +83,4 @@ A Python 3.13+ project with `src/`, `tests/`, `docs/`, `pyproject.toml`, `consta
 [SA-001]: ../stakeholder-analysis.md
 [c55db0e]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/016-pretty_table/commit/c55db0e0f2f7c259018b85a90824b124cc0b780d
 [cd85bb4]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/016-pretty_table/commit/cd85bb42593077fc462fae258e9336f4ddd34985
+[001b7c2]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/016-pretty-table/commit/001b7c26fd3c239ee46d82f437dedac1ccf57eff

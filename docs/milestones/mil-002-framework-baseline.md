@@ -11,7 +11,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version; accepted with the Go verdict of the review record (autonomous, not independent) | pending |
+| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version; accepted with the Go verdict of the review record (autonomous, not independent) | [001b7c2] |
 
 ---
 
@@ -73,3 +73,4 @@ A merged pull request that holds: the updated Business Case, Stakeholder Analysi
 
 [BC-001]: ../business-case.md
 [PP-001]: ../project-plan.md
+[001b7c2]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/016-pretty-table/commit/001b7c26fd3c239ee46d82f437dedac1ccf57eff

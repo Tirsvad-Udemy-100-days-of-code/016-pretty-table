@@ -12,7 +12,7 @@
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
 | 2026-10-07 | Deprecated | Jens Tirsvad Nielsen | S01 | Initial version | [c55db0e] |
-| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Added the baseline gateway G2 (MIL-002), its scope coverage, dependency, risk and Gantt entries; sources on the assumptions; marked G1 as not synced to the git host; set the domain to education; reviewed in autonomous mode, not independent | pending |
+| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Added the baseline gateway G2 (MIL-002), its scope coverage, dependency, risk and Gantt entries; sources on the assumptions; marked G1 as not synced to the git host; set the domain to education; reviewed in autonomous mode, not independent | [001b7c2] |
 
 ---
 
@@ -82,3 +82,4 @@ A No-Go on G1 moves the decision date until the failed criteria are fixed, and m
 [MIL-002]: ./milestones/mil-002-framework-baseline.md
 [RC-004]: ./sqa/reviews/rc-004-python-source-code.md
 [Milestone 518]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/016-pretty-table/milestone/518
+[001b7c2]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/016-pretty-table/commit/001b7c26fd3c239ee46d82f437dedac1ccf57eff
