@@ -6,13 +6,14 @@
 | ID | SA-001 |
 | CrossReference | [BC-001] |
 | Language | en |
-| Domain | it |
+| Domain | education |
 
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
 | 2026-10-07 | Deprecated | Jens Tirsvad Nielsen | S01 | Initial version | [c55db0e] |
-| 2026-10-07 | Accepted | Jens Tirsvad Nielsen | S01 | Re-review fix: spell out FURPS+ | [cd85bb4] |
+| 2026-10-07 | Deprecated | Jens Tirsvad Nielsen | S01 | Re-review fix: spell out FURPS+ | [cd85bb4] |
+| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Added concern IDs CN-001 to CN-003 (QC-SA-001 criterion 9), a conflict about author and reviewer being one person, the baseline phase in the communication table and the traceability; set the domain to education; reviewed in autonomous mode, not independent | pending |
 
 ---
 
@@ -38,25 +39,27 @@ Identify who is affected by the project and what each needs, using a power/inter
 
 FURPS+ stands for functionality, usability, reliability, performance and supportability, plus design, implementation, interface and physical constraints.
 
-| ID | Concern | FURPS+ attribute |
-| --- | --- | --- |
-| S01 | Work follows the plan-first process and is verified by tests | Functionality, Supportability |
-| S02 | Code is readable and runs with the documented steps | Usability, Functionality |
-| S03 | Repository is self-explanatory and light | Usability, Implementation (no extra runtime dependencies) |
+| Concern ID | Stakeholder | Concern | FURPS+ attribute |
+| --- | --- | --- | --- |
+| CN-001 | S01 | Work follows the plan-first process and is verified by tests | Functionality, Supportability |
+| CN-002 | S02 | Code is readable and runs with the documented steps | Usability, Functionality |
+| CN-003 | S03 | Repository is self-explanatory and light | Usability, Implementation (no extra runtime dependencies) |
 
 ## Communication Requirements
 
 | ID | Channel | Frequency | Deliverable | Phase / Milestone |
 | --- | --- | --- | --- | --- |
-| S01 | Chat review of the working tree | Per phase | Reviewed documents and code | All |
+| S01 | Chat review of the working tree | Per phase | Reviewed documents and code | All, including MIL-002 |
 | S02 | README | Once, on publication | Run and test instructions | Delivery |
 | S03 | Repository page | Once, on publication | Description, topics, README | Delivery |
+| S02, S03 | Wiki in English, Danish and Malay | Once, updated on change | Wiki pages | MIL-002 |
 
 ## Conflicting Interests and Mitigations
 
 | Conflict | Stakeholders | Mitigation |
 | --- | --- | --- |
 | S02 wants the assignment's exact function names; S03 wants a tidy, idiomatic project | S02, S03 | Keep the assignment's names for public functions and apply the conventions everywhere else |
+| The author and the reviewer of the baseline documents are the same person (S01), so the review is not independent | S01 | The AI assistant acts as stand-in reviewer for S01; every review record says `Mode: autonomous, not independent` and the end-of-run summary lists it for challenge |
 
 ## Traceability Analysis
 
@@ -64,13 +67,14 @@ FURPS+ stands for functionality, usability, reliability, performance and support
 
 | Stakeholder | Concern | Business Case objective |
 | --- | --- | --- |
-| S01 | Reviewed, framework-compliant work | [BC-001] O3, O4 |
-| S02 | Runnable code and instructions | [BC-001] O1, O2 |
-| S03 | Clear repository presentation | [BC-001] O4 |
+| S01 | Reviewed, framework-compliant work (CN-001) | [BC-001] O3, O4, O5 |
+| S02 | Runnable code and instructions (CN-002) | [BC-001] O1, O2 |
+| S03 | Clear repository presentation (CN-003) | [BC-001] O4 |
+| S01, S02, S03 | A project that follows the common baseline of the framework, with a wiki in three languages | [BC-001] O5 |
 
 ## Sign-Off
 
-Accepted by S01 (RC-002).
+Accepted by S01 (RC-002). The later edit (concern IDs, conflict, domain) is accepted on the `Go` verdict of its review record, by the AI as stand-in for S01 (autonomous mode, not independent).
 
 ---
 
